@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.z.xc_flowlayout.FlowLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_200"
+        android:padding="10dp">
+
+        <TextView
+            style="@style/placeholder"
+            android:text="小米" />
+
+        <TextView
+            style="@style/placeholder"
+            android:text="oppo" />
+
+        <TextView
+            style="@style/placeholder"
+            android:text="vivo" />
+
+        <TextView
+            style="@style/placeholder"
+            android:text="诺机亚" />
+
+        <TextView
+            style="@style/placeholder"
+            android:text="三星" />
+
+        <TextView
+            style="@style/placeholder"
+            android:text="牛" />
+
+        <TextView
+            style="@style/placeholder"
+            android:text="huawei" />
+
+        <TextView
+            style="@style/placeholder"
+            android:text="one plus" />
+
+        <TextView
+            style="@style/placeholder"
+            android:text="360" />
+
+        <TextView
+            style="@style/placeholder"
+            android:text="iphone" />
+
+        <TextView
+            style="@style/placeholder"
+            android:text="xxx" />
+
+        <TextView
+            style="@style/placeholder"
+            android:text="xxxx" />
+
+        <TextView
+            style="@style/placeholder"
+            android:text="xxxxx" />
+
+        <TextView
+            style="@style/placeholder"
+            android:text="xxxxx" />
+
+        <TextView
+            style="@style/placeholder"
+            android:text="xxxxx" />
+
+        <TextView
+            style="@style/placeholder"
+            android:text="手机" />
+
+        <TextView
+            style="@style/placeholder"
+            android:text="牛x" />
+
+        <TextView
+            style="@style/placeholder"
+            android:text="笔记本" />
+    </com.z.xc_flowlayout.FlowLayout>
+
+    <com.z.xc_flowlayout.FlowLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@color/teal_200">
+
+        <TextView
+            style="@style/placeholder"
+            android:text="小米" />
+
+        <TextView
+            style="@style/placeholder"
+            android:text="oppo" />
+
+        <TextView
+            style="@style/placeholder"
+            android:text="vivo" />
+
+        <TextView
+            style="@style/placeholder"
+            android:text="诺机亚" />
+
+        <TextView
+            style="@style/placeholder"
+            android:text="三星" />
+
+        <TextView
+            style="@style/placeholder"
+            android:text="牛逼" />
+
+        <TextView
+            style="@style/placeholder"
+            android:text="huawei" />
+
+        <TextView
+            style="@style/placeholder"
+            android:text="one plus" />
+
+        <TextView
+            style="@style/placeholder"
+            android:text="360" />
+
+        <TextView
+            style="@style/placeholder"
+            android:text="iphone" />
+
+        <TextView
+            style="@style/placeholder"
+            android:text="xxx" />
+
+        <TextView
+            style="@style/placeholder"
+            android:text="xxxx" />
+
+        <TextView
+            style="@style/placeholder"
+            android:text="xxxxx" />
+
+        <TextView
+            style="@style/placeholder"
+            android:text="xxxxx" />
+
+        <TextView
+            style="@style/placeholder"
+            android:text="xxxxx" />
+
+        <TextView
+            style="@style/placeholder"
+            android:text="手机" />
+
+        <TextView
+            style="@style/placeholder"
+            android:text="笔记本" />
+
+        <TextView
+            style="@style/placeholder"
+            android:text="固定硬盘" />
+
+        <TextView
+            style="@style/placeholder"
+            android:text="内存条" />
+
+    </com.z.xc_flowlayout.FlowLayout>
+
+
+    <com.z.xc_flowlayout.FlowLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/teal_200"
+        android:padding="10dp">
+
+        <TextView
+            style="@style/placeholder"
+            android:text="小米" />
+
+        <TextView
+            style="@style/placeholder"
+            android:text="oppo" />
+
+        <TextView
+            style="@style/placeholder"
+            android:text="vivo" />
+
+        <TextView
+            style="@style/placeholder"
+            android:text="huawei" />
+
+    </com.z.xc_flowlayout.FlowLayout>
+
+    <!-- adapter -->
+    <com.z.xc_flowlayout.FlowLayout
+        android:id="@+id/flow_adapter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/teal_200"
+        android:padding="10dp"/>
+
+</LinearLayout>

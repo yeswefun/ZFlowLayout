@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "xc_flowlayout"
